@@ -15,4 +15,4 @@ Una vez descargada la herramienta, se le debe dar permisos de ejecución para po
 
 ---------------------------------------------------
 
-Desarrollado por: Sergio 'Xark' Gracia || https://ciberxark.es
+Desarrollado por: Sergio 'Xark' Gracia || https://ciberxark.es || https://www.linkedin.com/in/sergiogracia/
