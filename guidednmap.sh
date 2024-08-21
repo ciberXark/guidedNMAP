@@ -327,7 +327,7 @@ escanear_ip_concreta() {
                 fi
                 ;;
             2)
-                read -p "Introduzca la dirección IP a suplantar (formato XXX.XXX.XXX.XXX): " ip_spoof
+                read -p "Introduzca la dirección IP a suplantar: " ip_spoof
                 if validar_ip "$ip_spoof"; then
                     nmap_command="$nmap_command -S $ip_spoof"
                     break
@@ -385,7 +385,7 @@ ${COLOR_VERDE_NEGRITA}
     @@ @@@       @@  @@       @@@       @@   @@      @@@@@        @@   @@               @@ @@@@       @@@@ @@@@       @@  @@       @@@@@@@  
     @@  @@       @@  @@       @@@       @@   @@      @@@          @@   @@               @@  @@@       @@ @@@ @@       @@@@@@       @@@      
     @@@@@@       @@@@@@       @@@       @@@@@@       @@@@@@       @@@@@@                @@   @@       @@  @  @@       @@  @@       @@@      
-${COLOR_RESET}                                                                                                                                   v.0.15.4
+${COLOR_RESET}                                                                                                                                   v.0.15.5
 
                                                      Desarrollado por: ${COLOR_VERDE_NEGRITA}Sergio${COLOR_RESET} ${COLOR_ROJO_NEGRITA}'Xark'${COLOR_RESET} ${COLOR_VERDE_NEGRITA}Gracia${COLOR_RESET}
                                                                        ${COLOR_AMARILLO_NEGRITA}https://ciberxark.es${COLOR_RESET}
